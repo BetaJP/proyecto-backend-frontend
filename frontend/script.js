@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3000';
+const API_URL = window.API_URL || 'http://localhost:3000';
 
 // Referencias a elementos del DOM
 const userForm = document.getElementById('userForm');
